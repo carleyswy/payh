@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container .header {
+  flex: 0 0 80px;
+  border-bottom: 1px solid #efefef
+}
+
+.container .main {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+.container .footer {
+  flex: 0 0 80px;
+  border-top: 1px solid #efefef;
+}
+
+.container .main .menu {
+  flex: 0 0 300px;
+  border-right: 1px solid #efefef;
+  width: 300px;
+}
+.container .main .content {
+  flex: 1 1 auto;
+  
+}
